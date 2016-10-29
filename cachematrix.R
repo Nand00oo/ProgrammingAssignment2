@@ -37,3 +37,19 @@ cacheSolve <- function(x, ...) {
       x$setinverse(m)
       m
 }
+            
+## To test the function:
+cacheSolve(makeCacheMatrix(x<-rbind(c(2,4.5),c(1,6))))
+
+##           [,1]       [,2]
+##  [1,]  0.8000000 -0.6000000
+##  [2,] -0.1333333  0.2666667
+
+## Gives the same result as:
+            
+## x<-rbind(c(2,4.5),c(1,6))
+## solve(x)
+##           [,1]       [,2]
+## [1,]  0.8000000 -0.6000000
+## [2,] -0.1333333  0.2666667           
+            
