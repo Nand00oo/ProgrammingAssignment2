@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+
 ## Function “cacheSolve” computes the inverse of the special “matrix” (which is the input of cachemean) 
 ## returned by makeCacheMatrix above. If the inverse has already been calculated (and the matrix has not changed),
 ## then the cachesolve should retrieve the inverse from the cache. If the inverse has not been calculated, 
